@@ -1,0 +1,16 @@
+@import '../../global.scss';
+
+
+.portafolioMenu{
+    
+        font-size: 20px;
+        margin-right: 50px;
+        padding: 7px;
+        border-radius: 7px;
+        cursor: pointer;
+        
+        &.active{
+            background-color: $mainColor;
+            color: white;
+        }
+}
