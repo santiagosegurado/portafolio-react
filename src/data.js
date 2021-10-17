@@ -6,7 +6,7 @@ export const destacadosPortafolio = [
         titulo:"Pokedex",
         descripcion:"App desarrollada con React.js y bootstrap. Datos mostrados consuminedo https://pokeapi.co/",
         img:"https://latiendapokemon.com/wp-content/uploads/2017/05/pokedex_pikachu.jpg",
-        url:"https://santiagosegurado.github.io/pokedex-reactapp/"
+        url:"https://santiagosegurado.github.io/pokedex-react-app/"
     },
     {
         id:2,
