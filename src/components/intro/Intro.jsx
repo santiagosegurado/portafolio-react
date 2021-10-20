@@ -18,16 +18,16 @@ export const Intro = () => {
 
     return (
         <div className="intro" id="intro">
-            <div className="left">
+            {/* <div className="left">
                 <div className="imgConteiner">
-                    <img src="assets/fotoPortafolio.jpeg" alt="Santiago Segurado" />
+                    <img src="/public/assets/fotoPortafolio.jpeg" alt="Santiago Segurado" />
                 </div>
-            </div>
+            </div> */}
             <div className="right">
                 <div className="wrapper">
                     <h2>Hola! Soy </h2>
                     <h1>Santiago Segurado</h1>
-                    <h3 ref={ ref }>.</h3>
+                    <h3 ref={ ref }></h3>
                     <a href="#portafolio" >
                         <ExpandMoreIcon className="downArrow"/>
                     </a>

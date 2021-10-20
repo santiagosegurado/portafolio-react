@@ -2,7 +2,7 @@ import { Contact } from "./components/contact/Contact";
 import { Intro } from "./components/intro/Intro";
 import { Portafolio } from "./components/portafolio/Portafolio";
 import { Topbar } from "./components/topbar/Topbar";
-import { Work } from "./components/work/Work";
+import { Skills } from "./components/skills/Skills";
 import { Menu } from "./components/menu/Menu";
 import { useState } from "react";
 
@@ -19,7 +19,7 @@ function App() {
       <div className="sections">
         <Intro/>
         <Portafolio/>
-        <Work/>
+        <Skills/>
         <Contact/> 
       </div>
     </div>

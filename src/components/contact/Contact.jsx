@@ -17,6 +17,9 @@ export const Contact = () => {
 
           e.target.reset();
       };    
+
+
+      
     
     
     return (

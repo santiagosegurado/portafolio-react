@@ -11,7 +11,7 @@ export const Topbar = ({ menuOpen, setMenuOpne }) => {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">SantiagoSegurado. </a>
+                    <a href="#intro" className="logo">SantiagoSegurado </a>
                     <div className="itemConteiner">
                         <Person className="icon"/>
                         <span>1527201927</span>

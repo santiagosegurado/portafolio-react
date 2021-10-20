@@ -1,0 +1,47 @@
+@import '../../global.scss';
+
+
+#skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $mainColor;
+
+    h2{
+        color: white;
+        font-size: 50px;
+    }
+}
+
+.skills{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+
+.skill-bar{
+    height: 25px;
+    background-color:lighten($color: black, $amount: 60);
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.skill-per{
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.skill-per::before{
+    content: attr(per);
+    margin-left: 15px;
+}

@@ -18,7 +18,7 @@ export const Menu = ( { menuOpen, setMenuOpne } ) => {
                     <a href="#portafolio">Portfolio</a>
                 </li>
                 <li onClick={ abrirMenu } >
-                    <a href="#work">Works</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li onClick={ abrirMenu } >
                     <a href="#contact">Contacto</a>
