@@ -21,6 +21,9 @@ export const Menu = ( { menuOpen, setMenuOpne } ) => {
                     <a href="#skills">Skills</a>
                 </li>
                 <li onClick={ abrirMenu } >
+                    <a href="#github">GitHub</a>
+                </li>
+                <li onClick={ abrirMenu } >
                     <a href="#contact">Contacto</a>
                 </li>
             </ul>

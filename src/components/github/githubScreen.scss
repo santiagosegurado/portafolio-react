@@ -1,0 +1,67 @@
+@import '../../global.scss';
+
+
+
+
+#github{
+    background-color: white;
+}
+
+.github1{
+    h2{
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon{
+        font-size: 45px;
+        color: $mainColor;
+    }
+}
+
+
+.card{
+    width: 54%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+
+    .card-img{
+        display: block;
+    }
+
+    .card-title{
+        padding: 10px;
+    }
+
+    
+    hr{
+        color: #cccc;
+    }
+    
+    .card-body{
+        
+        padding: 10px;
+
+        p{
+            margin-top: 20px;    
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            transition: all 500ms ease;
+
+            &:hover{
+                text-decoration: underline;
+                color: lighten($color: $mainColor, $amount: 30) ;
+            }
+        }
+    }
+}

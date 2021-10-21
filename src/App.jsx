@@ -7,6 +7,7 @@ import { Menu } from "./components/menu/Menu";
 import { useState } from "react";
 
 import './app.scss'
+import { GithubScreen } from "./components/github/GithubScreen";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Intro/>
         <Portafolio/>
         <Skills/>
+        <GithubScreen/>
         <Contact/> 
       </div>
     </div>
