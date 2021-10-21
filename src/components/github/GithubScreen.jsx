@@ -16,13 +16,12 @@ export const GithubScreen = () => {
     }, [])
 
 
+
     const repos = gitHub.map(g => {
         return { 
             reponame: g.name
         }
     })
-
-    console.log(gitHub)
     
     return (
         <div id="github">
@@ -31,8 +30,8 @@ export const GithubScreen = () => {
             </div>
 
             <div className="card">
-                <img className="card-img" src={ gitHub[0].owner.avatar_url } alt="" />
-                <h3 className="card-title" > { gitHub[0].owner.login }</h3>
+                <img className="card-img" src="https://avatars.githubusercontent.com/u/56309904?v=4" alt="" />
+                <h3 className="card-title" > santiagosegurado </h3>
                 <hr />
                 <div className="card-body">
 
