@@ -4,34 +4,41 @@ import { init } from 'ityped';
 
 import './intro.scss'
 import { useRef } from 'react';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 export const Intro = () => {
 
-    
+
     const ref = useRef()
 
     useEffect(() => {
-        
-        init(ref.current , { showCursor: false, strings: ['Desarrollador FrontEnd'] })
+
+        init(ref.current, { showCursor: false, strings: ['Desarrollador FrontEnd'] })
     }, [])
-    
+
 
     return (
         <div className="intro" id="intro">
-            {/* <div className="left">
-                <div className="imgConteiner">
-                    <img src="/public/assets/fotoPortafolio.jpeg" alt="Santiago Segurado" />
-                </div>
-            </div> */}
+            
+            <div className="left">
+                <Player
+                    autoplay
+                    loop
+                    src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json"
+                    style={{ height: '400px', width: '300px' }}
+                ></Player>
+            </div>
+            
             <div className="right">
                 <div className="wrapper">
                     <h2>Hola! Soy </h2>
                     <h1>Santiago Segurado</h1>
-                    <h3 ref={ ref }></h3>
+                    <h3 ref={ref}></h3>
                     <a href="#portafolio" >
-                        <ExpandMoreIcon className="downArrow"/>
+                        <ExpandMoreIcon className="downArrow" />
                     </a>
                 </div>
+                
             </div>
         </div>
     )

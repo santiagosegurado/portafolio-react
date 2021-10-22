@@ -12,11 +12,55 @@
         color: white;
         font-size: 45px;
     }
-}
 
-.skills{
-    width: 100%;
-    padding-left: 50px;
+    .skills{
+        width: 50%;
+
+        #html{
+            max-width: 450px;
+        }
+
+        #css{
+            max-width: 400px;
+        }
+
+        #sass{
+            max-width: 350px;
+        }
+
+        #js{
+            max-width: 400px;
+        }
+
+        #react{
+            max-width: 300px;
+        }
+
+        @include mobile{
+            width: 90%;
+
+            #html{
+                max-width: 244px;
+            }
+
+            #css{
+                max-width: 210px;
+            }
+
+            #sass{
+                max-width: 180px;
+            }
+
+            #js{
+                max-width: 210px;
+            }
+
+            #react{
+                max-width: 160px;
+            }
+
+        }
+    }
 }
 
 .skill-name{

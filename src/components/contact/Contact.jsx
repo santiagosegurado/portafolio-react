@@ -1,6 +1,7 @@
 import React from 'react';
 import './contact.scss'
 import emailjs from 'emailjs-com'
+import { Player } from '@lottiefiles/react-lottie-player';
 
 
 export const Contact = () => {
@@ -25,10 +26,15 @@ export const Contact = () => {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="https://raw.githubusercontent.com/safak/youtube/da700015c8a88050fad7b961e99a7039638ab3b2/public/assets/shake.svg" alt="" />
+            <Player
+                className="player"
+                autoplay
+                loop
+                src="https://assets3.lottiefiles.com/packages/lf20_2q00fwtq.json"
+            ></Player>
             </div>
             <div className="right">
-                <h2>Contacto.</h2>
+                <h2>Contacto</h2>
                 <form onSubmit={ sendEmail }>
                     <input type="text" placeholder="Nombre" name="name" />
                     <input type="text" placeholder="Asunto" name="subject" />
