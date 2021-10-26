@@ -13,14 +13,18 @@
     
     
     .left{
-        flex: 0.5;
+        flex: 1;
         overflow: hidden;
+        
 
+        .player{
+            height: 500px;
+            width: 400px;
+        }
 
         @include mobile{
 
-            flex: 0.6;
-               
+            flex: 0.7;
         }
         
 
@@ -31,7 +35,7 @@
 
         @include mobile{
 
-            flex: 1;
+            flex: 0.6;
                
         }
 
@@ -43,10 +47,15 @@
             flex-direction: column;
             justify-content: center;
             
+            
             @include mobile{
                 align-items: center;
                 padding-left: 0px;   
                 height: 70%;
+
+                h1, h2, h3, a{
+                    overflow: hidden;
+                }
             }
 
             h1{

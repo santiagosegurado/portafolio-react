@@ -22,10 +22,10 @@ export const Intro = () => {
             
             <div className="left">
                 <Player
+                    className="player"
                     autoplay
                     loop
                     src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json"
-                    style={{ height: '400px', width: '300px' }}
                 ></Player>
             </div>
             
