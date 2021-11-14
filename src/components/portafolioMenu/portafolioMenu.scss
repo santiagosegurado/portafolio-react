@@ -13,4 +13,10 @@
             background-color: $mainColor;
             color: white;
         }
+
+        @include mobile{
+            font-size: 15px;
+            padding: 4px;
+            margin-right: 17px;
+        }
 }

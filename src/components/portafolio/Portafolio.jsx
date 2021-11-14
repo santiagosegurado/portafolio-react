@@ -64,7 +64,7 @@ export const Portafolio = () => {
     
     return (
         <div className="portafolio" id="portafolio">
-            <h1>Portafolio</h1>
+            <h2>Portafolio</h2>
             <ul>
                 
                 {
