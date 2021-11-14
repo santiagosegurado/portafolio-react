@@ -14,10 +14,10 @@ export const PopupCss = ({ openPopupCss, handlePopupCss }) => {
                         <button onClick={ handlePopupCss } >Cerrar</button>
                     </div>
                     <ul>
-                        <li></li>
-                        <li>Custom Hooks</li>
-                        <li>Funtional Components</li>
-                        <li>Redux</li>
+                        <li>Responsive Web Desing</li>
+                        <li>Flexbox</li>
+                        <li>Css Grid</li>
+                        <li>Bootstrap</li>
                     </ul>
                 </div>
             </div>
