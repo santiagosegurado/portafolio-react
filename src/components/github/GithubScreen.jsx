@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { getGitHubUser } from './getGitHubUser';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BookmarksIcon from '@mui/icons-material/Bookmarks';
-import '/home/santiago/Desktop/proyectosReact/portfolio/src/components/github/githubScreen.scss';
-import { Player } from '@lottiefiles/react-lottie-player';
+import './githubScreen.scss';
 
 export const GithubScreen = () => {
 
