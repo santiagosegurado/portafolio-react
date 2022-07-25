@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { PortafolioMenu } from '../portafolioMenu/PortafolioMenu';
-import { destacadosPortafolio, 
+import {  
         javaScriptPortafolio, 
-        reactPortafolio} from '../../data';
+        reactPortafolio,
+        cssPortafolio
+        } from '../../data';
 
 import './portafolio.scss'
 
@@ -11,7 +13,7 @@ import './portafolio.scss'
 
 export const Portafolio = () => {
     
-    const [seleccionado, setSelecionado] = useState("destacado");
+    const [seleccionado, setSelecionado] = useState("react");
 
     const [data, setData] = useState([]);
 
@@ -19,9 +21,9 @@ export const Portafolio = () => {
     useEffect(() => {
         
         switch (seleccionado) {
-            case "destacado":
+            case "htmlYCss":
                 
-                setData(destacadosPortafolio)
+                setData(cssPortafolio)
                 break;
             
             case "javaScript":
@@ -36,7 +38,7 @@ export const Portafolio = () => {
                 break;
             
             default: 
-                setData(destacadosPortafolio)
+                setData(reactPortafolio)
                 break;
         }
         

@@ -3,6 +3,7 @@ import './topbar.scss'
 import { Mail } from '@material-ui/icons';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
+import cv from '../../SantiagoSeguradoCV.pdf';
 
 
 
@@ -26,7 +27,7 @@ export const Topbar = ({ menuOpen, setMenuOpne }) => {
                             <span>santisegurado1@gmail.com</span>
                         </div>
                     </a>
-                    <a className='itemLink' href="./SantiagoSeguradoCV.pdf" download="SantiagoSeguradoCV.pdf">
+                <a className='itemLink' href={cv} download="SantiagoSeguradoCV.pdf">
                         <div className="itemConteiner">
                             <FileDownloadIcon className="icon"/>
                             <span>Curriculum Vitae</span>

@@ -13,7 +13,7 @@ export const Intro = () => {
 
     useEffect(() => {
 
-        init(ref.current, { showCursor: false, strings: ['Desarrollador FrontEnd'] })
+        init(ref.current, { showCursor: false, strings: ['Desarrollador Full Stack'] })
     }, [])
 
 

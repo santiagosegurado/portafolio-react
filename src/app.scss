@@ -1,22 +1,24 @@
-.app{
-    height: 100vh;
+@import "./global.scss";
 
-    .sections{
-        width: 100%;
-        height: calc(100vh - 70px);
-        background-color: coral;
-        position: relative;
-        top: 70px;
-        scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;
-        &::-webkit-scrollbar {
-            display: none;
-        }
+.app {
+  height: 100vh;
 
-        > *{
-            width: 100%;
-            height: calc(100vh - 70px);
-            scroll-snap-align: start;
-        }
+  .sections {
+    width: 100%;
+    height: calc(100vh - 30px);
+    background-color: coral;
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    &::-webkit-scrollbar {
+      display: none;
     }
+
+    > * {
+      width: 100%;
+      height: calc(100vh - 30px);
+      scroll-snap-align: start;
+    }
+  }
 }
